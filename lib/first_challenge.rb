@@ -19,6 +19,5 @@ def first_challenge
           if contacts["Freddy Mercury"][:favorite_icecream_flavors].include?("strawberry")
             contacts["Freddy Mercury"][:favorite_icecream_flavors].shift()
       end
+      return contacts
     end
-    return contacts
-  end
