@@ -23,12 +23,3 @@ contacts.each do |person, data|
    end
  end
 end
-
-
-  def delete(contacts)
-      contacts["Freddy Mercury"].each do |key, value|
-        contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if value == "strawberry"
-    end
-  end
-  return contacts
-end
