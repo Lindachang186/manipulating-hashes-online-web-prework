@@ -8,6 +8,8 @@ def second_challenge
 
   #code your solution here!
 groceries.each do |key, values|
-  puts :key.values.values
+    new = []
+    key.values << new
   end
+  return new.flatten
 end
