@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts["Jon Snow"][:favorite_icecream_flavors].shift("strawberry")
+contacts["Jon Snow"][:favorite_icecream_flavors].shift[0]
 
   #remember to return your newly altered contacts hash!
   contacts
