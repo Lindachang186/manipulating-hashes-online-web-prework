@@ -14,8 +14,10 @@ def first_challenge
   }
 
   #your code here
-contacts["Jon Snow"][:favorite_icecream_flavors].shift[0]
-
+  def delete
+  contacts.each do |key, value|
+    contacts.delete_if value == "strawberry"
+  end
   #remember to return your newly altered contacts hash!
   contacts
 
