@@ -20,6 +20,7 @@ contacts["Freddy Mercury"].each do |person, data|
       value.each do |flavor|
         value.delete_if == "strawberry"
       end
+    end
   end
 end
 end
