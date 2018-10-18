@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
 groceries.each do |key, values|
-  key.each do |array, items|
-    array.values.flatten
+  key.values do |array, items|
+    array.flatten
     end
   end
 end
