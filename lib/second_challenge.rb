@@ -11,4 +11,3 @@ def second_challenge
     puts :key.value.flatten
     end
   end
-
