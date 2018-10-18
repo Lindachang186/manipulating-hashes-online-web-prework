@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   groceries.each do |key, values|
-    keys.each do |type, groceries|
+    groceries.each do |type, groceries|
       groceries.values.flatten
     end
 end
