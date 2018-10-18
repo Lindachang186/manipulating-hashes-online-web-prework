@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.each do |key, values|
-    puts :key.value.flatten
+groceries.each do |key, values|
+  print values
     end
   end
