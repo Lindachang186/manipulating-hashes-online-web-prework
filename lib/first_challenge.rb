@@ -21,6 +21,5 @@ contacts["Freddy Mercury"].each do |person, data|
         value.delete_if == "strawberry"
       end
   end
-  return contacts
 end
 end
