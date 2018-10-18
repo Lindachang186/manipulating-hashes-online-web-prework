@@ -10,5 +10,6 @@ def second_challenge
 groceries.each do |key, values|
   key.each do |items|
     items.values.flatten
+  end
     end
   end
