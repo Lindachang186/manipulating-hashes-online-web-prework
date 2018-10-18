@@ -14,14 +14,12 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy Mercury"].each do |person, data|
-  data.each do |attribute, value|
-    if attribute == :favorite_icecream_flavors
-      value.each do |flavor|
-        flavor == "strawberry"
+  def delete(flavor)
+        contacts["Freddy Mercury"].each do |key, value|
+          if contacts["Freddy Mercury"][:favorite_icecream_flavors].include?("strawberry")
+            contacts["Freddy Mercury"][:favorite_icecream_flavors].shift()
       end
+      return contacts
     end
   end
-end
-return contacts
 end
